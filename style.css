@@ -1,0 +1,411 @@
+body {
+  margin: 0 auto;
+}
+
+/* Navigation stuff */
+
+#nav {
+  display: inline;
+  font-size: 20px;
+}
+
+/* home button */
+
+#home {
+  border: 1px solid black;
+  transition: 500ms;
+  background-color: rgb(0, 48, 102);
+  color: white;
+}
+#home-in-honorable {
+  border: 1px solid black;
+  transition: 500ms;
+}
+
+#home:hover {
+  background-color:  rgb(15, 35, 59);
+  transition: 500ms;
+}
+
+#home-in-honorable:hover {
+  background-color: rgb(15, 35, 59);
+  transition: 500ms;
+}
+
+/* honorable button */
+
+#honorable-a {
+  border: 1px solid black;
+  transition: 500ms;
+  color:  white;
+  background-color: rgb(0, 48, 102);
+}
+
+#honorable-a-in-home {
+  border: 1px solid black;
+  transition: 500ms;
+  color: rgb(27, 69, 117);
+}
+
+#honorable-a-in-home:hover {
+  background-color: rgb(15, 35, 59);
+}
+
+#honorable-a:hover {
+  background-color: rgb(15, 35, 59);
+  transition: 500ms;
+}
+
+#nav a {
+  padding: 10px 20px 10px 20px;
+}
+
+#nav a:hover {
+  color: white; 
+}
+
+/* */
+
+#line1 {
+  height: 150px;
+  width: 100%;
+  padding-top: 5%;
+}
+
+#line2 {
+  height: 200px;
+  width: 100%;
+}
+
+#songs-image {
+  height: 400px;
+}
+
+#title1 {
+  font-weight: bold;
+  font-size: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#header h1 {
+  padding-left: 5%;
+  padding-top: 1%;
+  font-size: 120px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: black;
+}
+
+#header h2 {
+  padding-left: 3%;
+  margin-top: -4%;
+  font-size: 252%;
+  letter-spacing: 2px;
+}
+
+#sideNote {
+  font-size: 15px;
+}
+
+/* lists */
+
+.lists {
+  font-size: 125%;
+  display: block;
+  float: right;
+  line-height: 135%;
+  text-align: justify;
+  margin-top: 160px;
+}
+.lists h1 {
+  font-family: 'Times New Roman', Times, serif;
+  margin-left: 25%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* button and phrases */
+
+#random button {
+  border: 2px solid rgb(255, 255, 255);
+  font-size: 25px;
+  padding: 20px 30px;
+  font-weight: bold;
+  background-color: #969696;
+  color: white;
+  border-color: #6e6e6e;
+  text-transform: uppercase;
+  border-radius: 12px;
+  margin-bottom: 35px;
+  transition: 500ms;
+}
+
+#random button:hover {
+  border: 2px solid black;
+  transition: 750ms;
+  cursor: pointer;
+  background-color: white;
+  color: #6e6e6e;
+}
+
+button:focus {
+  border: none;
+}
+
+#phrase1 {
+  font-size:24px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* Song image and name */
+
+.song-choosing {
+  text-align: center;
+}
+
+#song {
+  margin-top: 50px;
+}
+
+#songs-name {
+  font-weight: lighter;
+  font-size: 45px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#songs-image {
+  margin-top: 50px;
+  height: 400px;
+}
+
+#honorable-mentions-link {
+  text-transform: uppercase;
+  background-color: rgb(177, 7, 177);
+  text-align: center;
+  margin: 5% 30% auto 30%;
+  transition: 750ms;
+  border: 3px solid white;
+}
+
+#honorable-mentions-link-title{
+  font-size: 35px;
+  padding: 5% 5% 5% 5%;
+  color: white;
+  opacity: 100%;
+  transition: 1s;
+}
+
+#honorable-mentions-link:hover #honorable-mentions-link-title {
+  transition: 1s;
+  color: rgb(177, 7, 177);
+  font-weight: bold;
+}
+
+#honorable-mentions-link:hover {
+  transition: 750ms;
+  background-color:  white;
+  border: 3px solid rgb(177, 7, 177);
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* footer */
+
+footer {
+  margin-left: 80px;
+  margin-top: 2%;
+}
+
+footer p {
+  font-size: 27px;
+  line-height: 150%;
+  margin-bottom: 3%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#sponsors {
+  padding-top: 5px;
+  padding-bottom: 7px;
+  margin-top: -12px;
+  background-color: #2f2f2f;
+  width: 100%;
+}
+
+#sponsors h2 {
+  color: white;
+  font-size: 35px;
+}
+
+#sponsors h2, ul, li {
+  padding-left: 75px;
+}
+
+#sponsors-list {
+  line-height: 155%;
+  margin-top: -1%;
+  margin-left: -60px;
+}
+
+#socials img {
+  height: 60px;
+}
+
+#socials-list {
+  line-height: 155%;
+  margin-top: -1%;
+  margin-left: -60px;
+}
+
+#sponsors-list li {
+  display: inline;
+  color: rgb(43, 255, 0);
+  line-height: 175%; 
+  font-weight: bold;
+}
+
+#socials-list li {
+  display: inline;
+}
+
+#sponsors-list li:hover {
+  cursor: context-menu;
+  color: #09f5c6;
+}
+
+#specialOneLi {
+  color: white;
+  letter-spacing: 1px;
+}
+
+.special-words {
+  color: #272b37;
+}
+ 
+/* Honorable mentions page */
+
+/* honorable mentions list */
+
+#title2 {
+  text-align: center;
+  font-size: 300%;
+  font-weight: bold;
+  color: rgb(43, 131, 231);
+  margin: 20px 200px 50px 200px;
+  transition: 1s;
+}
+
+#title2:hover {
+  border: 1px solid black;
+  transition: 1s;
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  cursor: context-menu;
+}
+
+.honorable-songs {
+  margin: 0 auto;
+  background-color: rgb(12, 29, 49);
+  padding-bottom: 50px;
+  padding-top: 25px;
+  opacity: 85%;
+  transition: 500ms;
+}
+
+.take-me-there {
+  opacity: 0%; 
+  transition: 500ms;
+  font-size: 40px;
+  font-weight: bold;
+  cursor: pointer;
+  color:  rgb(81, 168, 197);
+}
+
+.take-me-there:hover {
+  color:  rgb(103, 213, 250);
+  transition: 500ms;
+}
+
+.honorable-songs:nth-child(even) span{
+  color:  rgb(27, 69, 117);
+}
+
+.honorable-songs:nth-child(even) span:hover{
+  color:  rgb(15, 35, 59);
+}
+
+.honorable-songs:hover .take-me-there {
+  opacity: 100%;
+  transition: 500ms;
+}
+
+.honorable-songs h2 {
+  color: white;
+}
+
+.honorable-songs:nth-child(even) {
+  background-color: rgb(81, 168, 197);
+}
+
+.honorable-songs:hover {
+  opacity: 100%;
+  transition: 500ms;
+}
+
+.honorable-songs:nth-child(even) h2{
+  color: black;
+}
+
+#honorable img {
+  height: 250px;
+  padding: 20px;
+  transition: 750ms;
+}
+
+#honorable img:hover {
+  opacity: 75%;
+  transition: 750ms;
+}
+
+#honorable-mentions-list-names li {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+#honorable-mentions-list-names {
+  float: left;
+}
+
+#honorable-mentions-list-images {
+  float: right;
+}
+
+.honorable-songs {
+  text-align: center;
+}
+
+#go-back-home {
+  font-size: 15px;
+  opacity: 0%;
+  transition: 750ms;
+  color: rgb(63, 207, 255);
+  border: 2px solid rgb(63, 207, 255);
+  padding: 15px;
+}
+
+#go-back-home:hover {
+  color:black;
+  transition: 250ms;
+  background-color: rgb(103, 213, 250);
+  border: 2px solid black;
+}
+
+#back-to-home-trigger:hover #go-back-home{
+  opacity: 100%;
+  transition: 750ms;
+}

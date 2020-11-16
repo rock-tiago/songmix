@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Choose your music </title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="header"> 
+      <h1 href="index.html"> Choose a song </h1> 
+      <h2> Anytime. Anywhere (you have internet). For free. <span id="sideNote">(but if you really want: paypal.me/tiagoRock)</span>
+        <span id="nav"> <a href="index.html" id="home">Home</a><a href="honorable.html" id="honorable-a-in-home"> Honorable Mentions </a></span>
+      </h2>
+    </div>
+    <img id="line1" src="linha convexa.png"> 
+    <div id="body">
+      <section id="available-songs">
+        <div class="lists">
+          <h1>available songs </h1>
+          <ul id="list-songs1">
+            <li id="song1Adventures" value="adventures">The Adventures Of Rain Dance Maggie <br> by Red Hot Chilli Peppers</li>
+            <li id="song2Sunday" value="sunday">Sunday Best by Surfaces</li>
+            <li id="song3Imagine">Imagine by John Lennon</li>
+            <li id="song4DontLookBack">Don't Look Back In Anger by Oasis</li>
+            <li id="song5Ellie">Take on Me Ellie's version</li>
+            <li id="song6Snow">Snow (Hey Oh) by Red Hot Chilli Peppers</li>
+          </ul>
+          <ul id="list-songs2">
+            <li id="song7Sky">The Sky Is A Neighborhood by Foo Fighters</li>
+            <li id="song8ScarTissue">Scar Tissue by Red Hot Chilli Pepper</li>
+            <li id="song9Under">Under The Bridge by Red Hot Chilli Peppers</li>
+            <li id="song10Guns">21 Guns by Green Day</li>
+            <li id="song11FlyMe">Fly Me To The Moon by Frank Sinatra</li>
+            <li id="song12DontStop">Don't Stop Me Now by Queen</li>
+          </ul>
+          <ul id="list-songs3">
+            <li id="song13Wild">Wild World by Yusuf / Cat Stevens</li>
+            <li id="song14Help">Help! by The Beatles</li>
+            <li id="song15DarkNecessities">Dark Necessities by Red Hot Chilli Peppers</li>
+            <li id="song16Wonderwall">Wonderwall by Oasis</li>
+            <li id="song17WannaKnow">Do I Wanna Know by Arctic Monkeys</li>
+            <li id="song18ThatsLife">That's Life by Frank Sinatra</li>
+         </ul>
+         <ul id="list-songs4">
+          <li id="song19Otherside">Otherside by Red Hot Chilli Peppers</li>
+         </ul>
+        </div>
+      </section>
+      <div class="song-choosing">
+        <section id="random">
+          <p id="title1"> Can't choose a music on your own? Pick a random one:</p>
+          <button class="pick_song" onclick="randomSong()"> I'm feeling lucky </button>
+          <br>
+          <label id="phrase1"> Too many options? What vibe are you looking for? </label>
+          <select id="filter" name="filter" onchange="randomSong()">
+            <option value="whatever"> Whatever </option>
+            <option value="positive"> Positive </option>
+            <option value="chill"> Chill </option>
+            <option value="alarm"> Alarm </option>
+          </select>
+        </section>
+        <div id="song">
+          <span id="songs-name"> <cite> The song's name will be here </cite>  </span>
+          <br>
+          <img id="songs-image" src="qr code rick roll.png"> 
+        </div>
+      </div>
+      <div id="honorable-mentions-link">
+        <a href="honorable.html"> <h1 id="honorable-mentions-link-title"> Honorable Mentions  </h1> </a>
+      </div>
+    </div>
+    <img id="line2" src="linha concava.png">
+    <footer>
+      <p>
+        Having trouble choosing a song?<strong class="special-words"> Get a random one. </strong> 
+        <br>
+        Not vibing with it? <strong class="special-words">Just try again.</strong>
+        <br>
+        Hotel? <strong class="special-words">Trivago.</strong> (not sponsored)
+      </p>
+    </footer>
+    <div id="sponsors">
+      <h2> Sponsors </h2>
+      <ul id="sponsors-list">
+        <li> Available Spot </li>
+        <li> Available Spot </li>
+        <li> Available Spot </li>
+        <li> Available Spot </li> 
+        <li> <span id="specialOneLi">More spots to come!</span> </li>
+      </ul>
+      <div id="socials">
+        <h2> Socials </h2>
+        <ul id="socials-list">
+          <li><img src="instagram logo 1.png" id="instagram"> </li>
+          <li><img src="facebook logo 1.png" id="facebook"> </li>
+          <li><img src="gmail logo 1.png" id="gmail"> </li>
+        </ul>
+      </div>
+    </div>
+    <script src="js.js"> </script>
+  </body>    
+</html>
